@@ -1,0 +1,23 @@
+body {
+  margin: 0; padding: 0;
+  display: flex; justify-content: center; align-items: center;
+  height: 100vh;
+  background: #E41A1C;
+  transition: background 0.5s ease;
+}
+.banner {
+  text-align: center;
+}
+.main {
+  width: 300px; margin-bottom: 20px;
+}
+.thumbnails {
+  display: flex; gap: 10px; justify-content: center;
+}
+.thumb {
+  width: 60px; cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.thumb:hover {
+  transform: translateY(-10px);
+}
